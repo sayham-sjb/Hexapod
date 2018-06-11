@@ -122,8 +122,8 @@ void setup() {
 void InitialPosition() {
 	for (uint8_t i = 0; i < SERV_QTY; i++)
 	{
-		rPwm.setPWM(i, 0, rServos[i][3]);
-		lPwm.setPWM(i, 0, lServos[i][3]);
+		rPwm.setPWM(i, 0, rServos[i][2);
+		lPwm.setPWM(i, 0, lServos[i][2]);
 	}
 	Serial.println(" -> Reseted to Initial Position! ");
 }
